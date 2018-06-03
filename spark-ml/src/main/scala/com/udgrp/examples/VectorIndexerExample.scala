@@ -22,7 +22,7 @@ object VectorIndexerExample extends SparkDriver {
     */
   override def doProcess(spark: SparkSession): Unit = {
     // $example on$
-    val data = spark.read.format("libsvm").load("ud-spark-ml/data/mllib/sample_libsvm_data.txt")
+    val data = spark.read.format("libsvm").load("spark-ml/data/mllib/sample_libsvm_data.txt")
 
     val indexer = new VectorIndexer()
       .setInputCol("features")

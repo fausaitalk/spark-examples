@@ -1,6 +1,7 @@
 #ML Pipelines（ML管道）
 EstimatorTransformerParamExample
 PipelineExample
+
 #Extracting, transforming and selecting features（特征的提取，转换和选择）
 TfIdfExample
 Word2VecExample
@@ -31,6 +32,38 @@ RFormulaExample
 ChiSqSelectorExample
 BucketedRandomProjectionLSHExample
 MinHashLSHExample
+
+#Classification and regression（分类和回归）
+LogisticRegressionWithElasticNetExample
+LogisticRegressionSummaryExample
+MulticlassLogisticRegressionWithElasticNetExample
+DecisionTreeClassificationExample
+RandomForestClassifierExample
+MultilayerPerceptronClassifierExample
+OneVsRestExample
+NaiveBayesExample
+
+#Regression（回归）
+LinearRegressionWithElasticNetExample
+GeneralizedLinearRegressionExample
+DecisionTreeRegressionExample
+RandomForestRegressorExample
+GradientBoostedTreeRegressorExample
+AFTSurvivalRegressionExample
+IsotonicRegressionExample
+
+#Clustering（聚类）
+KMeansExample
+LDAExample
+BisectingKMeansExample
+GaussianMixtureExample
+
+#Collaborative Filtering（协同过滤）
+ALSExample
+
+#ML Tuning: model selection and hyperparameter tuning（ML调优：模型选择和超参数调整）
+ModelSelectionViaCrossValidationExample
+ModelSelectionViaTrainValidationSplitExample
 
 
 

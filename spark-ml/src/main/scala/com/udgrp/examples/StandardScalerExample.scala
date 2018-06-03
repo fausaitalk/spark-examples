@@ -21,7 +21,7 @@ object StandardScalerExample extends SparkDriver{
   override def doProcess(spark: SparkSession): Unit = {
 
     // $example on$
-    val dataFrame = spark.read.format("libsvm").load("ud-spark-ml/data/mllib/sample_libsvm_data.txt")
+    val dataFrame = spark.read.format("libsvm").load("spark-ml/data/mllib/sample_libsvm_data.txt")
 
     val scaler = new StandardScaler()
       .setInputCol("features")
